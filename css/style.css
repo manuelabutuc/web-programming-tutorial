@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #eaeaea;
 }
@@ -38,7 +40,7 @@ header {
 
 header h1 {
     text-align: right;
-    color: #3b8dbd;
+    color: #000000;
 }
 
 #content-wrapper {
@@ -52,10 +54,10 @@ header h1 {
 #breadcrumb {
     background: #dcdcdc url("../img/house.png") 3px center no-repeat;
     padding: 10px 5px 10px 40px;
-    border: 1px solid #00aeef;
+    border: 1px solid #8e6a61;
     border-radius: 3px;
     box-shadow: 1px 1px 3px #c2c2c2;
-    color: #245674;
+    color: #a57c70;
 }
 
 .clear {
@@ -67,7 +69,7 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: #3b8dbd;
+    background-color: #c5c5c5;
     color: #ffffff;
     font-size: 0.9em;
     padding: 8px;
@@ -77,8 +79,8 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #00aeef;
-    border-bottom: 1px solid #00aeef;
+    background-color: #a57c70;
+    border-bottom: 1px solid #70534b;
     height: 40px;
     font-weight: bold;
 }
@@ -106,7 +108,7 @@ footer {
 }
 
 #top-menu div ul a:hover {
-    color: #29a7e1;
+    color: #a57c70;
     background: #ffffff;
 }
 #top-menu div ul a:active {
@@ -124,12 +126,12 @@ footer {
     background: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
-    border-color: #00aeef;
+    border-color: #785a52;
     box-shadow: 1px 1px 3px #c2c2c2;
 }
 
 .widget .header {
-    background: #3b8dbd url("../img/toggle-collapse.png") 15px center no-repeat;
+    background: #c8998a url("../img/toggle-collapse.png") 15px center no-repeat;
     color: #ffffff;
     padding: 15px;
     text-align: right;
@@ -180,5 +182,5 @@ footer {
     border-collapse: collapse;
 }
 #calendar-widget td {
-    border: 1px solid #29a7e1;
+    border: 1px solid #a57c70;
 }
