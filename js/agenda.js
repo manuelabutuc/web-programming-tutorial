@@ -1,6 +1,6 @@
 console.debug('loading agenda');
 
-
+//json
 function getRow(person){
     var nume=person.nume;
     var prenume=person.prenume;
@@ -10,18 +10,21 @@ function getRow(person){
     return row;
 }
 
+//primestet un json, aici se incarca agenda
+$.ajax({
+    url: "js/mocks/load-contacts.json"
+}).done(function(contacts) {
+    console.debug('ajax done', contacts);
+    showContacts(contacts);
+});
 
-
-var contacts=[
-    {nume: 'Manu', prenume: 'D',telefon: '490'},
-    {nume: 'Olimpia', prenume: 'C',telefon: '0234'},
-    {nume:'Oana',prenume:'V',telefon:'6543'},
-    {nume:'Andrei',prenume:'B', telefon:"3709"},
-    {nume:'Paul',prenume:'A', telefon:"0932"}
-];
-
-for(var i=0; i<contacts.length; i++){
-    var person=contacts[i];
-    $('#agenda tbody').append(getRow(person));
+console.debug('after ajax');
+function showContacts(contacts){
+    for(var i=0; i<contacts.length; i++){
+        var person=contacts[i];
+        $('#agenda tbody').append(getRow(person));
+    }
 }
+
+
 
