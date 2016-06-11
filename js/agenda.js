@@ -1,5 +1,23 @@
 console.debug('loading agenda');
 
-var row= '<tr><td>Matei</td><td>0340432314</td></tr>';
-$('#agenda tbody').append(row);
-$('#agenda tbody').append(row);
+
+function getRow(person){
+    var nume=person[0];
+    var telefon=person[1];
+
+    var row= '<tr><td>'+ nume +'</td><td>'+ telefon +'</td></tr>';
+    return row;
+}
+
+var contacts=[
+    ['Manu','490'],
+    ['Olimpia','0233'],
+    ['Andrei', "3709"],
+    ['Paul', "0932"]
+];
+
+for(var i=0; i<contacts.length; i++){
+    var person=contacts[i];
+    $('#agenda tbody').append(getRow(person));f
+}
+
