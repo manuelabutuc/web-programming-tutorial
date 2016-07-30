@@ -1,7 +1,7 @@
 [
-  {"nume": "Manu", "prenume": "D","telefon": "490"},
-  {"nume": "Olimpia", "prenume": "C","telefon": "0234"},
-  {"nume":"Oana","prenume":"V","telefon":"6543"},
-  {"nume":"Andrei","prenume":"B", "telefon":"3709"},
-  {"nume":"Paul","prenume":"A", "telefon":"0932"}
+  {"id":1, "nume": "Manu", "prenume": "D","telefon": "490"},
+  {"id":2, "nume": "Olimpia", "prenume": "C","telefon": "0234"},
+  {"id":3, "nume":"Oana","prenume":"V","telefon":"6543"},
+  {"id":4, "nume":"Andrei","prenume":"B", "telefon":"3709"},
+  {"id":5, "nume":"Paul","prenume":"A", "telefon":"0932"}
 ]

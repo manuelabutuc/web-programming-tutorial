@@ -2,15 +2,16 @@ console.debug('loading agenda');
 
 //json
 function getRow(person){
-    var nume=person.nume;
-    var prenume=person.prenume;
-    var telefon=person.telefon;
 
-    var row= '<tr><td>'+ nume +'</td><td>'+ prenume +'</td><td>'+ telefon +'</td></tr>';
+    var row= '<tr><td>'+ person.nume
+        +'</td><td>'+ person.prenume
+        +'</td><td>'+ person.telefon
+        +'</td><td><button data-id="'
+        +person.id+'">x</button></td></tr>';
     return row;
 }
 
-//primestet un json, aici se incarca agenda
+//primeste un json, aici se incarca agenda, ajax = functie
 $.ajax({
     url: "js/mocks/load-contacts.json"
 }).done(function(contacts) {
@@ -19,11 +20,18 @@ $.ajax({
 });
 
 console.debug('after ajax');
+
+
 function showContacts(contacts){
     for(var i=0; i<contacts.length; i++){
         var person=contacts[i];
         $('#agenda tbody').append(getRow(person));
     }
+
+    $('#agenda button').click(function(){
+        var id = $(this).data('id');
+       console.info('remove this contact',this, id);
+    });
 }
 
 
