@@ -17,6 +17,7 @@
             <li><a href="https://www.linkedin.com/in/nicolaematei" title="about me" target="_blank">About</a></li>
             <li><a href="https://www.linkedin.com/in/nicolaematei" title="contact me" target="_blank">Contact</a></li>
             <li><a href="agenda.php">Agenda</a></li>
+
         </ul>
     </div>
 </div>

@@ -1,7 +1,134 @@
 [
-  {"id":1, "nume": "Manu", "prenume": "D","telefon": "490"},
-  {"id":2, "nume": "Olimpia", "prenume": "C","telefon": "0234"},
-  {"id":3, "nume":"Oana","prenume":"V","telefon":"6543"},
-  {"id":4, "nume":"Andrei","prenume":"B", "telefon":"3709"},
-  {"id":5, "nume":"Paul","prenume":"A", "telefon":"0932"}
+    {
+        "id": 1,
+        "nume": "Manu",
+        "prenume": "D",
+        "telefon": "490"
+    },
+    {
+        "id": 2,
+        "nume": "Olimpia",
+        "prenume": "C",
+        "telefon": "0234"
+    },
+    {
+        "id": 3,
+        "nume": "Oana",
+        "prenume": "V",
+        "telefon": "6543"
+    },
+    {
+        "id": 4,
+        "nume": "Andrei",
+        "prenume": "B",
+        "telefon": "3709"
+    },
+    {
+        "id": 5,
+        "nume": "Paul",
+        "prenume": "A",
+        "telefon": "0932"
+    },
+    {
+        "id": 6,
+        "nume": "Alin",
+        "prenume": "D",
+        "telefon": "08932"
+    },
+    {
+        "id": 7,
+        "nume": "dfsdf",
+        "prenume": "ew",
+        "telefon": "12"
+    },
+    {
+        "id": 8,
+        "nume": "das",
+        "prenume": "rew",
+        "telefon": "123"
+    },
+    {
+        "id": 9,
+        "nume": "ewq",
+        "prenume": "fds",
+        "telefon": "212"
+    },
+    {
+        "id": 10,
+        "nume": "manu",
+        "prenume": "dad",
+        "telefon": "123"
+    },
+    {
+        "id": 11,
+        "nume": "pada",
+        "prenume": "fs",
+        "telefon": "12"
+    },
+    {
+        "id": 12,
+        "nume": "pada",
+        "prenume": "fs",
+        "telefon": "12"
+    },
+    {
+        "id": 13,
+        "nume": "fsd",
+        "prenume": "fds",
+        "telefon": "1"
+    },
+    {
+        "id": 14,
+        "nume": "sads",
+        "prenume": "ee",
+        "telefon": "34"
+    },
+    {
+        "id": 15,
+        "nume": "da",
+        "prenume": "fs",
+        "telefon": "321"
+    },
+    {
+        "id": 16,
+        "nume": "dsa",
+        "prenume": "fds",
+        "telefon": "1"
+    },
+    {
+        "id": 17,
+        "nume": "dsa",
+        "prenume": "fds",
+        "telefon": "1"
+    },
+    {
+        "id": 18,
+        "nume": "dad",
+        "prenume": "rw",
+        "telefon": "132"
+    },
+    {
+        "id": 19,
+        "nume": "dad",
+        "prenume": "rw",
+        "telefon": "132"
+    },
+    {
+        "id": 20,
+        "nume": "dasd",
+        "prenume": "da",
+        "telefon": "121"
+    },
+    {
+        "id": 21,
+        "nume": "dasd",
+        "prenume": "da",
+        "telefon": "121"
+    },
+    {
+        "id": 22,
+        "nume": "das",
+        "prenume": "fsd",
+        "telefon": "32"
+    }
 ]
